@@ -30,4 +30,8 @@ public class BookServiceImpl implements BookService {
 	public List<Book> searchBooks(Book b) {
 		return bookDao.searchBooks(b);
 	}
+	
+	public void m1(){
+		
+	}
 }
