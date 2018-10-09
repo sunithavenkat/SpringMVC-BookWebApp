@@ -8,6 +8,8 @@ public class Book {
 	private String authorName;
 	private String bookIsbn;
 	private String activeSw;
+	
+	private String email;
 
 	public Book() {
 		// TODO Auto-generated constructor stub
