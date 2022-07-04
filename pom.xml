@@ -52,6 +52,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>SpringMVC-BookWebApp</finalName>
+		<finalName>spring-mvc-app</finalName>
 	</build>
 </project>
