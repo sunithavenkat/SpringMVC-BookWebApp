@@ -13,10 +13,10 @@ public class AppConfig {
 	@Bean
 	public DriverManagerDataSource dataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
-		ds.setUsername("system");
-		ds.setPassword("admin");
-		ds.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-		ds.setUrl("jdbc:oracle:thin:@localhost:1521/XE");
+		ds.setUsername("sa");
+		ds.setPassword("sa");
+		ds.setDriverClassName("org.h2.Driver");
+		ds.setUrl("jdbc:h2:mem:testdb");
 
 		return ds;
 	}
