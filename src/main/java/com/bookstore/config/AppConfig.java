@@ -16,7 +16,7 @@ public class AppConfig {
 		ds.setUsername("root");
 		ds.setPassword("root");
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://localhost/bootdb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false");
+		ds.setUrl("jdbc:mysql://localhost:3306/bootdb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false");
 
 		return ds;
 	}
