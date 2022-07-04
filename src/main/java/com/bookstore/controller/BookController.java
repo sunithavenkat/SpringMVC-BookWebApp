@@ -20,7 +20,7 @@ public class BookController {
 	@Autowired
 	private BookService bookService;
 
-	@RequestMapping("/bookForm")
+	@RequestMapping("/")
 	public String displayBookForm(Model model) {
 		Book b = new Book();
 		model.addAttribute("b", b);
